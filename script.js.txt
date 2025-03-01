@@ -1,0 +1,3 @@
+function learnMore() {
+  alert("Thank you for your interest in My School! Visit our About Us section to learn more.");
+}
