@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="school-logo.png" alt="School Logo">
+      <h1>My School</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to My School</h2>
+    <p>Where learning meets excellence.</p>
+    <button onclick="learnMore()">Learn More</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a leading educational institution dedicated to nurturing young minds and preparing them for the future.</p>
+  </section>
+
+  <section id="academics" class="academics">
+    <h2>Academics</h2>
+    <p>Explore our wide range of academic programs designed to inspire and challenge students.</p>
+  </section>
+
+  <section id="events" class="events">
+    <h2>Events</h2>
+    <p>Stay updated with our latest school events and activities.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
